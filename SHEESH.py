@@ -5,7 +5,7 @@ PLUS = 15
 MINUS = -15
 CODE = 0x58
 
-def SLEEP(timing=0.000000000000001):
+def SLEEP(timing=0.001):
     sleep(timing)
 
 def MSEVENT(plusPXL, minusPXL):
